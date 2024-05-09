@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+</head>
+<link rel="stylesheet" href="./resources/css/style.css">
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="./resources/js/main.js"></script>
+<body>
+    <div class="wrapper">
+        <div id="click_button">
+            <input type="button" value="아이디"  id="button_login">
+            <input type="button" value="등록" id="button_admin">
+            <input type="button" value="삭제" id="button_delete">
+        </div>
+            <div id="alert_popup_dim"> </div>
+                <div class="popup">
+                    <div id="alert_popup_error">
+                        <div class="pop-container">
+                            <div class="img">
+                                <img src="./resources/image/그림5.png" alt="그림">
+                            </div>
+                        <div id="pop-con">
+                                아이디를 입력하세요
+                        </div>
+                            <div id="alert_popup_error_btn">
+                                확인
+                            </div>
+                    </div>
+                </div>
+
+                <div id="alert_popup_info">
+                    <div class="pop-container">
+                        <div class="img">
+                            <img src="./resources/image/그림4.png " alt="그림">
+                        </div>
+                        <div id="pop-con">
+                                관리자 등록을 하시겠습니까?
+                        </div>
+
+                        <div class="btn">
+                            <ul>
+                                <li id="alert_popup_info_cancle_btn">취소</li>
+                                <li id="alert_popup_accept_btn">확인</li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="alert_popup_info_select">
+                    <div class="pop-container">
+                        <div class="img">
+                            <img src="./resources/image/그림4.png " alt="그림">
+                        </div>
+                        <div id="pop-con">
+                            정상 삭제 되었습니다.
+                        </div>
+                            <div id="alert_popup_info_select_btn">
+                                확인
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
